@@ -186,7 +186,7 @@ a:focus, a:hover {
 
 .portfolio-section {
   color: white;
-  background: url("../img/programming.png") no-repeat center center scroll;
+  background: url("../img/programming_orig.png") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
