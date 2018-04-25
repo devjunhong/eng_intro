@@ -124,7 +124,6 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/night_programming.gif") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -145,6 +144,14 @@ a:focus, a:hover {
   font-size: 18px;
 }
 
+#circle {
+    background: url("../img/seattle.jpg") no-repeat bottom center scroll;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
@@ -155,6 +162,11 @@ a:focus, a:hover {
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;
+  }
+  #circle{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
   }
 }
 
@@ -182,16 +194,6 @@ a:focus, a:hover {
 .content-section {
   padding-top: 150px;
   padding-bottom: 150px;
-}
-
-.portfolio-section {
-  color: white;
-  background: url("../img/programming_orig.png") no-repeat center center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 #map {
@@ -306,7 +308,7 @@ img::-moz-selection {
 .curtain__panel{
   display: flex;
   align-items: center;
-  background: url("../img/programming.png") no-repeat center center scroll;
+  background: url("../img/programming.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
