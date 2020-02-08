@@ -168,6 +168,9 @@ a:focus, a:hover {
     height: 350px;
     border-radius: 50%;
   }
+  .list-inline-item:not(:last-child){
+    margin-right: 2rem;
+  }
 }
 
 .btn-circle {
