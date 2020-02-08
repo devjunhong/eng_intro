@@ -259,6 +259,9 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
+  .list-inline-item:not(:last-child){
+    margin-right: 0rem;
+  }
 }
 
 footer {
